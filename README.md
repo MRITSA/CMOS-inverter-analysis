@@ -19,17 +19,17 @@ PMOS width is chosen larger to compensate for lower hole mobility and achieve ne
 
 ## Simulation Analysis
 
-# 1️⃣ Voltage Transfer Characteristics (VTC)
+# 1️ Voltage Transfer Characteristics (VTC)
 - Performed DC sweep of input from 0V to 5V
 - Plotted Vout vs Vin
 - Extracted switching threshold voltage (VM)
 - Observed S-shaped characteristic due to nonlinear MOS behavior
 
-# 2️⃣ Noise Margin Estimation
+# 2️ Noise Margin Estimation
 - Determined VOH, VOL, VIH, and VIL from VTC
 - Calculated NMH and NML
 
-# 3️⃣ Transient Analysis
+# 3️ Transient Analysis
 - Applied pulse input
 - Measured:
   - tPHL (High-to-Low delay)
